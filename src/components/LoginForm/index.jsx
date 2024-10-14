@@ -28,9 +28,21 @@ function Login() {
   return (
   <div className = "login-container">
     <ThemeProvider theme={theme}>
+        {/* <div className="note">
+          <h3>Note</h3>
+          <p className="note-text">Para fins de teste utilize o seguinte usuário e senha</p>
+          <p>Usuario: visitor</p>
+          <p>Senha: visitor123</p>
+        </div> */}
       <LoginContainer>
         <form className="form-login" onSubmit={handleSubmit}>
           <Title>Login</Title>
+          <div className="note">
+          
+          <p className="note-text">Para fins de avaliação, utilize as seguintes credenciais</p>
+          <p>Usuario: <b className="visitor">visitor</b></p>
+          <p>Senha: <b className="visitor">visitor123</b></p>
+        </div>
           <div className="input-login">
             <label htmlFor="usuario">Usuário</label>
             <input
