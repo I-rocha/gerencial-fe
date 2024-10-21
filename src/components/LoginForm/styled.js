@@ -6,7 +6,7 @@ export const LoginContainer = styled.section`
   background: ${theme.palette.background.paper};
   margin: 15px auto;
   border-radius: 5px;
-  padding: 2%;
+  padding: 3%;
   align-content: center;
   display: flex;
   flex-direction: column;
